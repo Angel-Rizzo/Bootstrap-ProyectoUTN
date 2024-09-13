@@ -28,3 +28,10 @@ img{
 .custom-hover:hover {
     background-color: #f0f0f0;
 }
+
+@media (max-width: 768px) { /* Para pantallas medianas y menores */
+  .overflow-auto {
+    max-height: 400px; /* Ajusta la altura según tus necesidades */
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+  }
+}
